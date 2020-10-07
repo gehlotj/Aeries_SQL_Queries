@@ -34,4 +34,4 @@ FROM STU INNER JOIN ATT ON [ATT].[SN] = [STU].[SN] WHERE [STU].[SC]={0} AND ([AT
 OR [ATT].[A3]={1} OR [ATT].[A4]={1} OR [ATT].[A5]={1} OR [ATT].[A6]={1})
 AND STU.TG = ' '
 
---Output: StudentID, Period 1, Period 2, Period 3, Period 4, Period 4, Period 5
+--Output: StudentID, Period 1, Period 2, Period 3, Period 4, Period 5, Period 6
