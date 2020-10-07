@@ -25,8 +25,8 @@ ORDER BY [STU].[LN], [STU].[FN];
 
 --Attendance Query
 --The following query will get all the attendance data for a specific student
---Input needed: {0} = School Number
-                {1} = Attendance Code you are filtering
+--Input needed:   {0} = School Number
+--                {1} = Attendance Code you are filtering
 
 SELECT [STU].[ID] AS [STUDENT ID],[ATT].[A1] AS [PERIOD 1],[ATT].[A2] AS [PERIOD 2],[ATT].[A3] AS [PERIOD 3],
 [ATT].[A4] AS [PERIOD 4],[ATT].[A5] AS [PERIOD 5],[ATT].[A6] AS [PERIOD 6]
